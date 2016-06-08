@@ -1,0 +1,14 @@
+[
+	{		
+		id="<guid>",		
+		name="Great Addin",	
+		gitUrl="http://github.com/yourname/yourrepo",	
+		iconUrl="MustBeLinkedToGitRepo_128x128.png"		
+	},
+	{		
+		id="<guid>",
+		name="Greatest Addin",		
+		gitUrl="http://github.com/yourname/yourrepo",	
+		iconUrl="MustBeLinkedToGitRepo_128x128.png"		
+	}
+]
