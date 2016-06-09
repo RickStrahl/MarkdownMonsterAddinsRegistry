@@ -42,10 +42,10 @@ Version.json should contain:
 
 ```json
 {
-   "id"="<guid>",
-   "name"="Greatest Addin",
-   "version"="0.11"
-   "released"=""
+   "id": "<guid>",
+   "name": "Greatest Addin",
+   "version": "0.11"
+   "released": ""
 }   
 ```
 
