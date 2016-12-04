@@ -1,0 +1,9 @@
+[
+
+	{		
+		id:"SaveImageToAzureBlob-MarkdownMonster-Addin",
+		name:"Save Image To Azure Blob",		
+		gitUrl:"https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin",		
+		gitVersionUrl:"https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/raw/master/Build/version.json",
+	}
+]

@@ -1,19 +1,17 @@
 # Markdown Monster Addin Registry
 ### Publish your Markdown Monster Addins here
 
-
-> ### @icon-warning Under Construction
-> The addin registry is not ready for accepting addins yet. We're still working out the logistics, but stay tuned for more info.
+> ### Under Construction
+> The addin registry is not ready for accepting addins yet. We're still working out the logistics, but stay tuned for more info. In the meantime this document, has an outline of current thinking. If you have comments or ideas please file an [Issue](https://github.com/RickStrahl/MarkdownMonsterAddinsRegistry/issues)
 
 This repository holds a list of available addins for the Markdown Monster Markdown editor.
 
 * [Markdown Monster Site](http://markdownmonster.west-wind.com)
 * [Markdown Monster on GitHub](https://github.com/RickStrahl/MarkdownMonster)
 
-
 This repository merely provides a list to available addins that are hosted via Git/Github and can be installed via the registry.
 
-All addins registered have to either provide source code, or if a commercial addin need to be 
+All addins registered have to either provide source code in a GitHub repository, or if a commercial addin, need to be officially approved by contacting 
 
 ### Requirements for Listing
 To get a Markdown Monster Addin listed you need to provide the following:
@@ -44,10 +42,18 @@ Version.json should contain:
 {
    "id": "<guid>",
    "name": "Greatest Addin",
-   "version": "0.11"
-   "released": ""
+   "version": "0.11",
+   "released": "2016-06-10T20:22:22"
 }   
 ```
 
+### Submitting to the Registry
+* Create your addin and make sure you follow the Guidelines
+* Fork this repository
+* Update `MarkdownMonsterAddinRegistry.json` and add your Addin at the bottom
+* Create a Pull Request and submit to the this repo
+
+We'll review the entry and if accepted merge the pull request to get your add-in listed.
+
 ### Policy
-We reserve the right to refuse admission of an admin into the registry.
+We reserve the right to refuse admission of any submission.
