@@ -4,12 +4,12 @@
 		id:"SaveImageToAzureBlob-MarkdownMonster-Addin",
 		name:"Save Image To Azure Blob",		
 		gitUrl:"https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin",		
-		gitVersionUrl:"https://raw.githubusercontent.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/master/Build/Version.json",
+		gitVersionUrl:"https://raw.githubusercontent.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/master/Build/version.json",
 	},
 	{		
 		id:"SaveImageToAzureBlob-MarkdownMonster-Addin2",
 		name:"Save Image To Azure Blob 2",				
 		gitUrl:"https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin",		
-		gitVersionUrl:"https://raw.githubusercontent.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/master/Build/Version.json",
+		gitVersionUrl:"https://raw.githubusercontent.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/master/Build/version.json",
 	}
 ]
