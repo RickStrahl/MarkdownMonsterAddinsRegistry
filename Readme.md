@@ -1,6 +1,6 @@
 # Markdown Monster Addin Registry
 
-![](MarkdownMonsterAddins_icon.png)
+![](./MarkdownMonsterAddins_Icon.png)
 
 ### Publish your Markdown Monster Addins here
 
@@ -26,23 +26,25 @@ To get a Markdown Monster Addin listed you need to provide the following:
 ### Markdown Monster Addin Repository Guidelines
 In order to submit a Markdown Monster addin to the repository here you need to use a GitHub repo and publish your addin with source code. 
 
-The structure of the repo has to include the following:
+The structure of the repo **has to include the following folder and structure:
 
 ```
-\lib
-    YourAddin.dll
-    Dependency1.dll
-    Dependency2.dll
-\src
-   <whatever sourcefiles>
-version.json
-Readme.md (description and usage)
+\build
+    addin.zip   // use your name that should match the Id
+    icon.png  
+    version.json
+
+readme.md 
 ```
+
+### The Zip File
+The zip file of your addin should contain all binaries needed to run the addin. This will be your compiled DLL plus any dependencies **that are not part of Markdown Monster**.
 
 Version.json should contain:
 
 ```json
 {
+    "id":SaveImageToAzureBlob",
 	"name": "Save Image to Azure Blob",
 	// in the build folder
 	"download": "SaveImageToAzureBlob-MarkdownMonster-Addin.zip",
