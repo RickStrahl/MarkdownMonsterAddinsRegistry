@@ -1,6 +1,6 @@
 # Markdown Monster Addin Registry
 
-<img src="MarkdownMonsterAddins.png" style="height: 128px;" />
+<img src="MarkdownMonsterAddins.png" style="width: 128px;height: 128px" />
 
 ### Publish your Markdown Monster Addins here
 
