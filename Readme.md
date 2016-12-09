@@ -1,4 +1,7 @@
 # Markdown Monster Addin Registry
+
+<img src="MarkdownMonsterAddins.png" style="height: 128px;" />
+
 ### Publish your Markdown Monster Addins here
 
 > ### Under Construction
@@ -40,11 +43,17 @@ Version.json should contain:
 
 ```json
 {
-   "id": "<guid>",
-   "name": "Greatest Addin",
-   "version": "0.11",
-   "released": "2016-06-10T20:22:22"
-}   
+	"name": "Save Image to Azure Blob",
+	// in the build folder
+	"download": "SaveImageToAzureBlob-MarkdownMonster-Addin.zip",
+	// single paragraph, keep short and precise
+	"description": "Allows uploading of images from disk or the clipboard to Azure Blob Storage, and embedding the resulting URL as an image link into the current document."
+	"longDescription": "...",
+	"icon": "AddIn.png",
+	"version": "0.05",
+	"author": "Rick Strahl - West Wind Technologies",	
+	"updated": "2016-12-5T01:00:00Z"
+}  
 ```
 
 ### Submitting to the Registry
