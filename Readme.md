@@ -29,8 +29,9 @@ In order to submit a Markdown Monster addin to the repository here you need to u
 The structure of the repo **has to include the following folder and structure:
 
 ```
+\Dsitribution
 \build
-    addin.zip   // use your name that should match the Id
+    addin.zip   
     icon.png  
     version.json
 
