@@ -1,9 +1,19 @@
 [
 
 	{		
-		id:"SaveImageToAzureBlob-MarkdownMonster-Addin",
-		name:"Save Image To Azure Blob",		
-		gitUrl:"https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin",		
-		gitVersionUrl:"https://raw.githubusercontent.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/master/Build/version.json",
-	}	
+		"id":"SaveImageToAzureBlob-MarkdownMonster-Addin",
+		"name":"Save Image To Azure Blob",		
+		"summary": "Upload images from disk or the clipboard to Azure Blob Storage, and embed the resulting URL as an image link into the current document.",
+		"author": "Rick Strahl - West Wind Technologies",	
+		"gitUrl":"https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin",		
+		"gitVersionUrl":"https://raw.githubusercontent.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/master/Build/version.json"
+	},
+	{
+		"id": "Paste-Code-As-Gist-Addin",
+		"name": "Paste Code as Gist",
+		"summary": "Create a code snippet as a Gist that gets embedded into Markdown as a script link from Github",
+		"author": "Rick Strahl - West Wind Technologies",	
+		"gitUrl": "https://github.com/RickStrahl/Paste-Code-As-Gist-Addin",
+		"gitVersionUrl":"https://raw.githubusercontent.com/RickStrahl/Paste-Code-As-Gist-Addin/master/Build/version.json"
+	}
 ]
