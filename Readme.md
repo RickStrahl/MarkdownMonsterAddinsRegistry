@@ -74,23 +74,22 @@ The `build\distribution` folder holds all files that into the Zip file. When you
 ### version.json
 `version.json` holds version and descriptive information about your addin. This file is queried in the addin list and if more information is requested about the addin. This file should live both in the `Build` folder so the Addin Manager can read it on a public URL, and embedded in the .ZIP file for determining the current installed version of your addin.
 
-Here's what `version.json` should contain:
+Here's an example what `version.json` should contain:
 
 ```json
 {
-    "id":SaveImageToAzureBlob",
+	"id": "SaveImageToAzureBlob",
 	"name": "Save Image to Azure Blob",
-	// in the build folder
-	"download": "SaveImageToAzureBlob-MarkdownMonster-Addin.zip",
-	// single paragraph, keep short and precise
-	"description": "Allows uploading of images from disk or the clipboard to Azure Blob Storage, and embedding the resulting URL as an image link into the current document."
-	"longDescription": "...",
-	"icon": "AddIn.png",
-	"version": "0.05",
-	"author": "Rick Strahl - West Wind Technologies",	
-	"updated": "2016-12-5T01:00:00Z"
-}  
+	"summary": "Upload images from disk or the clipboard to Azure Blob Storage, and embed the resulting URL as an image link into the current document.",
+	"description": null,
+	"releaseNotes": null,	
+	"version": "0.12",
+	"author": "© Rick Strahl - West Wind Technologies",	
+	"updated": "2016-12-19T12:12:40Z"
+}
 ```
+
+All of this should be pretty straight forward. Note that **Summary** should be a short paragraph that doesn't exceed 200 characters.
 
 ### The Zip File
 The zip file of your add-in should contain all binaries needed to run the add-in but most definitely **should not include** any assemblies that are already loaded by Markdown Monster. Make sure you turn **Copy Local** on any files that Markdown Monster ships.
@@ -108,8 +107,7 @@ del addin.zip
 remove-item -recurse -force .\Distribution
 md Distribution
 
-
-# change the folder below to match your bin folder
+# change the path appropriately  to copy your files
 "Copying files..."
 copy ..\PasteCodeAsGistAddin\bin\Release\PasteCodeAsGistAddin.dll .\Distribution
 
@@ -119,13 +117,18 @@ copy version.json .\Distribution
 7z a -tzip  addin.zip .\Distribution\*.*
 ```
 
-### Submitting to the Registry
-* Create your addin and make sure you follow the Guidelines
+### Submitting to the Addin Registry 
+Once you've created your repository you can submit your Addin to this registry:
+
 * Fork this repository
 * Update `MarkdownMonsterAddinRegistry.json` and add your Addin at the bottom
-* Create a Pull Request and submit to the this repo
+* Open a Pull Request and submit to the this repo
 
 We'll review the entry and if accepted merge the pull request to get your add-in listed.
 
 ### Policy
-We reserve the right to refuse admission of any submission for any reason whatsoever. 
+Note that we reserve the right to refuse admission of any submission for any reason whatsoever, although we hope that that won't be necessary. The main concerns are copyright and security concerns so be aware of that.
+
+
+### Feedback
+If you have any problems or questions please [open an issue](https://github.com/RickStrahl/MarkdownMonsterAddinsRegistry/issues) on this repo so we can further discuss any addins related issues you might have.
