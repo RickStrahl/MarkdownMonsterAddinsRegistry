@@ -96,6 +96,8 @@ The zip file of your add-in should contain all binaries needed to run the add-in
 
 The Zip file basically should be all the files in the **Distribution** folder.
 
+Markdown Monster's Addin Manager downloads this ZIP file from your repository and installs it in a folder below the `Addins` folder in Markdown Monster. The folder should be self-contained to run on its own except for potential dependencies already provided by Markdown Monster.
+
 The following `build.ps1` (I put it in the `Build` folder) can automate creating the Zip file using 7zip (7z.exe/7z.exe also in [Build folder](https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/tree/master/Build)):
 
 ```powershell
