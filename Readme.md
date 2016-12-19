@@ -60,6 +60,8 @@ Readme.md
 ```
 The filenames in the the `\Build` folder are fixed (addin.zip, icon.png, version.json).
 
+The `Readme.md` file should have information about your addin, what it does, any special steps needed to configure and any additional info required. When listed in the Addin Manager in Markdown Monster this is the page users are directed to to find out more about your addin.
+
 The Distribution folder should look like this:
 
 ```
