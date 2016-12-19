@@ -33,6 +33,9 @@ To publish your Addin:
 * Create a unique Id for your Addin (camel cased name)
 * Make sure you provide a `\Build` and `\Build\Distribution` folder
 * Make sure required files are provided (addin.zip, icon.png, version.json)
+
+Once your repo has been set up:
+
 * Clone this repository
 * Add your Addin to the `MarkdownMonsterAddinRegistry.json`
 * Open a Pull Request on this repo
@@ -40,7 +43,7 @@ To publish your Addin:
 If your pull request is approved and merged the addin will show in the addin manager inside of Markdown Monster and will be downloaded and installed from the Git repo.
 
 ### Markdown Monster Addin Git Repository Guidelines
-In order to submit a Markdown Monster addin to the repository here you need to use a Git repo and publish your addin with source code. 
+In order to submit a Markdown Monster addin to the repository here you need to use a Git repo and publish your addin with source code and a **very specific structure** for your `\Build` folder.
 
 The structure of the repo **has to include** the following folder and structure:
 
