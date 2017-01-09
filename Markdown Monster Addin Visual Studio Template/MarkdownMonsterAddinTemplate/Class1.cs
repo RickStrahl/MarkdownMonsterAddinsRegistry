@@ -1,50 +1,45 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using FontAwesome.WPF;
 using MarkdownMonster.AddIns;
 
 namespace $safeprojectname$
 {
-    public class $safeprojectname$ : MarkdownMonsterAddin
+    public class $safeitemname$ : MarkdownMonster.AddIns.MarkdownMonsterAddin
     {
         public override void OnApplicationStart()
         {
             base.OnApplicationStart();
 
-            Id = "$safeprojectname$";
+            Id = "$safeitemname$";
 
             // by passing in the add in you automatically
             // hook up OnExecute/OnExecuteConfiguration/OnCanExecute
             var menuItem = new AddInMenuItem(this)
             {
-                Caption = "$safeprojectname$",
+                Caption = "Sample Add in",
 
                 // if an icon is specified it shows on the toolbar
                 // if not the add-in only shows in the add-ins menu
-                FontawesomeIcon = FontAwesomeIcon.Github,
+                FontawesomeIcon = FontAwesomeIcon.Bullhorn
             };
 
-            // if you don't want to display main or config menu items clear handler
+            // if you don't want to display config or main menu item clear handler
             //menuItem.ExecuteConfiguration = null;
 
             // Must add the menu to the collection to display menu and toolbar items            
             this.MenuItems.Add(menuItem);
         }
 
-
         public override void OnExecute(object sender)
         {
-            MessageBox.Show("Hello from your $safeprojectname$ Addin ", "Markdown Addin Sample",
+            MessageBox.Show("Hello from your sample Addin", "Markdown Addin Sample",
                             MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         public override void OnExecuteConfiguration(object sender)
         {
-            MessageBox.Show("Configuration for our $safeprojectname$ Addin", "Markdown Addin Sample",
+            MessageBox.Show("Configuration for our sample Addin", "Markdown Addin Sample",
                             MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
@@ -52,5 +47,6 @@ namespace $safeprojectname$
         {
             return true;
         }
+
     }
 }
