@@ -26,8 +26,7 @@
 		"summary": "Create small C# based scripts that can automate many operations in Markdown Monster. Launch external tools, update documents, mail merge content into the editor and more.",
 		"author": "© Rick Strahl, West Wind Technologies",	
 		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin"		
-	},
-	https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin/tree/master/Build
+	},	
 	{
 		"id": "PandocMarkdownParser",
 		"name": "Pandoc Markdown Parser and Pandoc Conversion Launcher (Beta)",
