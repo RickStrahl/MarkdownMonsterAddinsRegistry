@@ -33,5 +33,5 @@
 		"summary": "Use the Pandoc Markdown parser in Markdown Monster, and create custom, reusable Pandoc conversion recipies with Pandoc Conversion Launcher.",
 		"author": "© Rick Strahl, West Wind Technologies",	
 		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin"	
-	},
+	}
 ]
