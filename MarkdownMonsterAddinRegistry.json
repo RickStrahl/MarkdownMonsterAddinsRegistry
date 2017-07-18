@@ -22,14 +22,14 @@
 	},
 	{
 		"id": "Commander",
-		"name": "Commander: C# Script Execution (Beta)",
+		"name": "Commander: C# Script Automation",
 		"summary": "Create small C# based scripts that can automate many operations in Markdown Monster. Launch external tools, update documents, mail merge content into the editor and more.",
 		"author": "© Rick Strahl, West Wind Technologies",	
 		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin"		
 	},	
 	{
 		"id": "PandocMarkdownParser",
-		"name": "Pandoc Markdown Parser and Pandoc Conversion Launcher (Beta)",
+		"name": "Pandoc Markdown Parser and Pandoc Conversion Launcher",
 		"summary": "Use the Pandoc Markdown parser in Markdown Monster, and create custom, reusable Pandoc conversion recipies with Pandoc Conversion Launcher.",
 		"author": "© Rick Strahl, West Wind Technologies",	
 		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin"	
