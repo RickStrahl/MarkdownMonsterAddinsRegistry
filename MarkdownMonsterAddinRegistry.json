@@ -1,37 +1,51 @@
 [
-	{		
-		"id":"SaveImageToAzureBlobStorage",
-		"name":"Save Image To Azure Blob",		
+	{
+		"id": "SaveImageToAzureBlobStorage",
+		"name": "Save Image To Azure Blob",
 		"summary": "Upload images from disk or the clipboard to Azure Blob Storage, and embed the resulting URL as an image link into the current document.",
 		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl":"https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin"		
+		"gitUrl": "https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin"
 	},
 	{
 		"id": "PasteCodeAsGist",
 		"name": "Paste Code as Gist",
 		"summary": "Create a code snippet as a Gist that gets embedded into Markdown as a script link from Github",
-		"author": "© Rick Strahl, West Wind Technologies",	
-		"gitUrl": "https://github.com/RickStrahl/PasteCodeAsGist-MarkdownMonster-Addin"		
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/PasteCodeAsGist-MarkdownMonster-Addin"
 	},
 	{
 		"id": "Snippets",
 		"name": "Snippets: Scripted Text Expansions",
 		"summary": "Create reusable text snippets with C# code expressions to embed into your documents.",
-		"author": "© Rick Strahl, West Wind Technologies",	
-		"gitUrl": "https://github.com/RickStrahl/Snippets-MarkdownMonster-Addin"		
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/Snippets-MarkdownMonster-Addin"
 	},
 	{
 		"id": "Commander",
 		"name": "Commander: C# Script Automation",
 		"summary": "Create small C# based scripts that can automate many operations in Markdown Monster. Launch external tools, update documents, mail merge content into the editor and more.",
-		"author": "© Rick Strahl, West Wind Technologies",	
-		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin"		
-	},	
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin"
+	},
 	{
 		"id": "PandocMarkdownParser",
-		"name": "Pandoc Markdown Parser and Pandoc Conversion Launcher (Beta)",
+		"name": "Pandoc Markdown Parser and Pandoc Conversion Launcher",
 		"summary": "Use the Pandoc Markdown parser in Markdown Monster, and create custom, reusable Pandoc conversion recipies with Pandoc Conversion Launcher.",
-		"author": "© Rick Strahl, West Wind Technologies",	
-		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin"	
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin"
+	},
+	{
+		"id": "AutoNumberAddin",
+		"name": "Auto Number",
+		"summary": "This addin automatically numbers figures, tables, and code listings.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-AutoNumber"
+  },
+  { 
+    "id": "TocAddin",
+		"name": "TOC Generator",
+		"summary": "Generate a table of contents using the headings in your markdown file.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-TocGenerator"
 	}
 ]
