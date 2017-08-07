@@ -35,7 +35,14 @@
 		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin"
 	},
 	{
-		"id": "TocAddin",
+		"id": "AutoNumberAddin",
+		"name": "Auto Number",
+		"summary": "This addin automatically numbers figures, tables, and code listings.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-AutoNumber"
+  },
+  { 
+    "id": "TocAddin",
 		"name": "TOC Generator",
 		"summary": "Generate a table of contents using the headings in your markdown file.",
 		"author": "© Daniel Vaughan http://danielvaughan.org",
