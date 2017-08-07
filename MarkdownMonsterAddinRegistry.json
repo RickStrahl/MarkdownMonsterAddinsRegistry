@@ -22,7 +22,7 @@
 	},
 	{
 		"id": "Commander",
-		"name": "Commander: C# Script Execution (Beta)",
+		"name": "Commander: C# Script Automation",
 		"summary": "Create small C# based scripts that can automate many operations in Markdown Monster. Launch external tools, update documents, mail merge content into the editor and more.",
 		"author": "© Rick Strahl, West Wind Technologies",	
 		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin"		
