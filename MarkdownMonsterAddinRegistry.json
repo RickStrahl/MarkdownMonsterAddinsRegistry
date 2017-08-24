@@ -40,12 +40,19 @@
 		"summary": "This addin automatically numbers figures, tables, and code listings.",
 		"author": "© Daniel Vaughan http://danielvaughan.org",
 		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-AutoNumber"
-  },
-  { 
-    "id": "TocAddin",
+	},
+	{
+		"id": "TocAddin",
 		"name": "TOC Generator",
 		"summary": "Generate a table of contents using the headings in your markdown file.",
 		"author": "© Daniel Vaughan http://danielvaughan.org",
 		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-TocGenerator"
+	},
+	{
+		"id": "CodeProjectMarkdownParserAddin",
+		"name": "CodeProject Markdown Parser",
+		"summary": "Produces HTML compatible with CodeProject article submissions.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParser"
 	}
 ]
