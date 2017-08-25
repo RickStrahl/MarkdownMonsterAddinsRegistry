@@ -11,7 +11,7 @@
 		"name": "Github Gist Integration",
 		"summary": "Create code snippets as Gists and embed them into documents, and open and save documents from Gists.",
 		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/PasteCodeAsGist-MarkdownMonster-Addin"
+		"gitUrl": "https://github.com/RickStrahl/GistIntegration-MarkdownMonster-Addin"
 	},
 	{
 		"id": "Snippets",
