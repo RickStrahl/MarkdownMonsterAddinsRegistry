@@ -54,5 +54,12 @@
 		"summary": "Produces HTML compatible with CodeProject article submissions.",
 		"author": "© Daniel Vaughan http://danielvaughan.org",
 		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParser"
-	}
+	},
+	{
+		"id": "ImgurUploader",
+		"name": "Upload Image to Imgur",
+		"summary": "Upload images opened from disk or the clipboard to Imgur, and embed the resulting URL as an image link into the current document.",
+		"author": "© supershowwei https://dotblogs.com.tw/supershowwei",
+		"gitUrl": "https://github.com/supershowwei/ImgurUploader-MarkdownMonster-Addin"
+ 	}
 ]
