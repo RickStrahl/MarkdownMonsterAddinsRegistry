@@ -57,7 +57,7 @@
 	},
 	{
 		"id": "KavaDocs",
-		"name": "Kava Docs Documentation",
+		"name": "Kava Docs (Alpha)",
 		"summary": "Lets you work interactively with a Kava Docs documentation site.",
 		"author": "© Rick Strahl, West Wind Technologies",
 		"gitUrl": "https://github.com/RickStrahl/KavaDocs-MarkdownMonster-Addin"
