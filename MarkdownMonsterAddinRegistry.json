@@ -14,13 +14,6 @@
 		"gitUrl": "https://github.com/RickStrahl/GistIntegration-MarkdownMonster-Addin"
 	},
 	{
-		"id": "Snippets",
-		"name": "Snippets: Scripted Text Expansions",
-		"summary": "Create reusable text snippets with C# code expressions to embed into your documents.",
-		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/Snippets-MarkdownMonster-Addin"
-	},
-	{
 		"id": "Commander",
 		"name": "Commander: C# Script Automation",
 		"summary": "Create small C# based scripts that can automate many operations in Markdown Monster. Launch external tools, update documents, mail merge content into the editor and more.",
