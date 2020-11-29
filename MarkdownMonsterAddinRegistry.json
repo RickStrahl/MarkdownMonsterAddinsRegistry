@@ -61,5 +61,12 @@
 		"summary": "Open a Console Terminal Window of your choice and keep it 'pinned' to the bottom of the Markdown Monster Application Window.",
 		"author": "© Rick Strahl, West Wind Technologies",
 		"gitUrl": "https://github.com/RickStrahl/Console-MarkdownMonster-Addin"
+	},
+	{
+		"id": "WebViewPreviewerAddin",
+		"name": "WebView Chromium Previewer",
+		"summary": "This addin replaces the default IE based Web preview control with the Chromium based WebView2 based on the Chromium Edge browser.",
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/WebViewPreview-MarkdownMonster-Addin"
 	}
 ]
