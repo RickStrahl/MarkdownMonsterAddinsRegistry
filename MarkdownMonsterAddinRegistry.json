@@ -33,5 +33,26 @@
 		"summary": "Open a Console Terminal Window of your choice and keep it 'pinned' to the bottom of the Markdown Monster Application Window.",
 		"author": "© Rick Strahl, West Wind Technologies",
 		"gitUrl": "https://github.com/RickStrahl/Console-MarkdownMonster-Addin/tree/v1"
-	}	
+	},
+	{
+		"id": "AutoNumberAddin",
+		"name": "Auto Number",
+		"summary": "This addin automatically numbers figures, tables, and code listings.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-AutoNumber/master"
+	},
+	{
+		"id": "TocAddin",
+		"name": "TOC Generator",
+		"summary": "Generate a table of contents using the headings in your markdown file.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-TocGenerator/master"
+	},
+	{
+		"id": "CodeProjectMarkdownParserAddin",
+		"name": "CodeProject Markdown Parser",
+		"summary": "Produces HTML compatible with CodeProject article submissions.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParse/master"
+	},
 ]
