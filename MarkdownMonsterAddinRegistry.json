@@ -54,5 +54,5 @@
 		"summary": "Produces HTML compatible with CodeProject article submissions.",
 		"author": "© Daniel Vaughan http://danielvaughan.org",
 		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParse/master"
-	},
+	}
 ]
