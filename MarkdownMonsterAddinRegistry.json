@@ -61,5 +61,12 @@
 		"summary": "Open a Console Terminal Window of your choice and keep it 'pinned' to the bottom of the Markdown Monster Application Window.",
 		"author": "© Rick Strahl, West Wind Technologies",
 		"gitUrl": "https://github.com/RickStrahl/Console-MarkdownMonster-Addin/master"
+	}	,
+	{
+		"id": "TextGenerator",
+		"name": "Text Generator",
+		"summary": "Generate random text to be inserted in the current document using an implementation of Lorem Ipsum. Requires MarkdownMonster version 2.",
+		"author": "© Joe McLain, Digital Writing",
+		"gitUrl": "https://github.com/joemclain/MMTextGeneratorAddin/master"
 	}	
 ]

@@ -3,7 +3,7 @@
 ![](./MarkdownMonsterAddins_Icon.png)
 
 ### Publish your Markdown Monster Addins here
-This repository is an Addin Registry for addins for the [Markdown Monster Markdown Editor for Windows](https://markdownmonster.west-wind.com) which is contained in `MarkdownMonsterAddinRegistry.json`.  arkdown MOnster's addin manager accesses this file to display addin listings and then dynamically loads the individual addin information from their respective Github repositories.
+This repository is an Addin Registry for addins for the [Markdown Monster Markdown Editor for Windows](https://markdownmonster.west-wind.com) which is contained in `MarkdownMonsterAddinRegistry.json`.  Markdown Monster's addin manager accesses this file to display addin listings and then dynamically loads the individual addin information from their respective Github repositories.
 
 This repository provides a list of available add-ins that are hosted via Git/Github and can be installed via the registry from within Markdown Monster via the [MarkdownMonsterAddinRegistry.json file](https://github.com/RickStrahl/MarkdownMonsterAddinsRegistry/blob/master/MarkdownMonsterAddinRegistry.json). You can publish your own add-ins that follow the addin guidelines in this document and publish it in this registry via pull request.
 
