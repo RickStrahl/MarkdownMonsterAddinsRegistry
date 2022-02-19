@@ -1,65 +1,52 @@
 [
 	{
-		"id": "SaveImageToAzureBlobStorage",
-		"name": "Save Image To Azure Blob",
-		"summary": "Upload images from disk or the clipboard to Azure Blob Storage, and embed the resulting URL as an image link into the current document.",
-		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/master"
-	},
-	{
 		"id": "GistIntegration",
 		"name": "Github Gist Integration",
 		"summary": "Create code snippets as Gists and embed them into documents, and open and save documents from Gists.",
 		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/GistIntegration-MarkdownMonster-Addin/master"
+		"gitUrl": "https://github.com/RickStrahl/GistIntegration-MarkdownMonster-Addin/tree/master"
+	},
+	{
+		"id": "SaveImageToAzureBlobStorage",
+		"name": "Save Image To Azure Blob",
+		"summary": "Upload images from disk or the clipboard to Azure Blob Storage, and embed the resulting URL as an image link into the current document.",
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/tree/master"
 	},
 	{
 		"id": "Commander",
 		"name": "Commander: C# Script Automation",
 		"summary": "Create small C# based scripts that can automate many operations in Markdown Monster. Launch external tools, update documents, mail merge content into the editor and more.",
 		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin/master"
+		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin/tree/master"
 	},
 	{
 		"id": "PandocMarkdownParser",
 		"name": "Pandoc Markdown Parser and Pandoc Conversion Launcher",
 		"summary": "Use the Pandoc Markdown parser in Markdown Monster, and create custom, reusable Pandoc conversion recipies with Pandoc Conversion Launcher.",
 		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin/master"
-	},
-	{
-		"id": "AutoNumberAddin",
-		"name": "Auto Number",
-		"summary": "This addin automatically numbers figures, tables, and code listings.",
-		"author": "© Daniel Vaughan http://danielvaughan.org",
-		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-AutoNumber/master"
-	},
-	{
-		"id": "TocAddin",
-		"name": "TOC Generator",
-		"summary": "Generate a table of contents using the headings in your markdown file.",
-		"author": "© Daniel Vaughan http://danielvaughan.org",
-		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-TocGenerator/master"
-	},
-	{
-		"id": "CodeProjectMarkdownParserAddin",
-		"name": "CodeProject Markdown Parser",
-		"summary": "Produces HTML compatible with CodeProject article submissions.",
-		"author": "© Daniel Vaughan http://danielvaughan.org",
-		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParse/master"
-	},
-	{
-		"id": "KavaDocs",
-		"name": "Kava Docs (Alpha)",
-		"summary": "Lets you work interactively with a Kava Docs documentation site.",
-		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/KavaDocs-MarkdownMonster-Addin/master"
+		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin/tree/master"
 	},
 	{
 		"id": "Console",
 		"name": "Console",
 		"summary": "Open a Console Terminal Window of your choice and keep it 'pinned' to the bottom of the Markdown Monster Application Window.",
 		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/Console-MarkdownMonster-Addin/master"
-	}	
+		"gitUrl": "https://github.com/RickStrahl/Console-MarkdownMonster-Addin/tree/master"
+	},
+	{
+		"id": "AutoNumberAddin",
+		"name": "Auto Number",
+		"summary": "This addin automatically numbers figures, tables, and code listings.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-AutoNumber/tree/master"
+	},
+
+	{
+		"id": "CodeProjectMarkdownParserAddin",
+		"name": "CodeProject Markdown Parser",
+		"summary": "Produces HTML compatible with CodeProject article submissions.",
+		"author": "© Daniel Vaughan http://danielvaughan.org",
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParse/tree/master"
+	}
 ]
