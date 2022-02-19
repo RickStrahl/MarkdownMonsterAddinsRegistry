@@ -47,6 +47,28 @@
 		"name": "CodeProject Markdown Parser",
 		"summary": "Produces HTML compatible with CodeProject article submissions.",
 		"author": "© Daniel Vaughan http://danielvaughan.org",
-		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParse/tree/master"
-	}
+
+		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParse/master"
+	},
+	{
+		"id": "KavaDocs",
+		"name": "Kava Docs (Alpha)",
+		"summary": "Lets you work interactively with a Kava Docs documentation site.",
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/KavaDocs-MarkdownMonster-Addin/master"
+	},
+	{
+		"id": "Console",
+		"name": "Console",
+		"summary": "Open a Console Terminal Window of your choice and keep it 'pinned' to the bottom of the Markdown Monster Application Window.",
+		"author": "© Rick Strahl, West Wind Technologies",
+		"gitUrl": "https://github.com/RickStrahl/Console-MarkdownMonster-Addin/master"
+	}	,
+	{
+		"id": "TextGenerator",
+		"name": "Text Generator",
+		"summary": "Generate random text to be inserted in the current document using an implementation of Lorem Ipsum. Requires MarkdownMonster version 2.",
+		"author": "© Joe McLain, Digital Writing",
+		"gitUrl": "https://github.com/joemclain/MMTextGeneratorAddin/master"
+	}	
 ]
