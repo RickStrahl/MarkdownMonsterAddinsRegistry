@@ -69,6 +69,6 @@
 		"name": "Text Generator",
 		"summary": "Generate random text to be inserted in the current document using an implementation of Lorem Ipsum. Requires MarkdownMonster version 2.",
 		"author": "© Joe McLain, Digital Writing",
-		"gitUrl": "https://github.com/joemclain/MMTextGeneratorAddin/master"
+		"gitUrl": "https://github.com/joemclain/MMTextGeneratorAddin/tree/master"
 	}	
 ]
