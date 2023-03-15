@@ -34,14 +34,6 @@
 		"author": "© Daniel Vaughan http://danielvaughan.org",
 		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-AutoNumber/tree/master"
 	},
-
-	{
-		"id": "CodeProjectMarkdownParserAddin",
-		"name": "CodeProject Markdown Parser",
-		"summary": "Produces HTML compatible with CodeProject article submissions.",
-		"author": "© Daniel Vaughan http://danielvaughan.org",
-		"gitUrl": "https://github.com/DVaughan/MarkdownMonster-Addin-CodeProjectParse/master"
-	},
 	{
 		"id": "TextGenerator",
 		"name": "Text Generator",
