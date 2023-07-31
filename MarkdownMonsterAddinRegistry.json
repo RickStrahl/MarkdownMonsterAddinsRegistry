@@ -13,7 +13,9 @@
 		"name": "Save Image To Azure Blob",
 		"summary": "Upload images from disk or the clipboard to Azure Blob Storage, and embed the resulting URL as an image link into the current document.",
 		"author": "© Rick Strahl, West Wind Technologies",
-		"gitUrl": "https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/tree/master"
+		"gitUrl": "https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/tree/master",
+		"minVersion": "3.0",
+		"maxVersion": "3.99.999"
 	},
 	{
 		"id": "Commander",
