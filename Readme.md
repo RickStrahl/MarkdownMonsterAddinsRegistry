@@ -3,9 +3,9 @@
 ![](./MarkdownMonsterAddins_Icon.png)
 
 ### Publish your Markdown Monster Addins here
-This repository is an Addin Registry for addins for the [Markdown Monster Markdown Editor for Windows](https://markdownmonster.west-wind.com) which is contained in `MarkdownMonsterAddinRegistry.json`.  Markdown Monster's addin manager accesses this file to display addin listings and then dynamically loads the individual addin information from their respective Github repositories.
+This repository is an Addin Registry for addins for the [Markdown Monster Markdown Editor for Windows](https://markdownmonster.west-wind.com) which is contained in `MarkdownMonsterAddinRegistry.json`.  Markdown Monster's addin manager accesses this file to display addin listings and then dynamically loads the individual addin information from their respective GitHub repositories.
 
-This repository provides a list of available add-ins that are hosted via Git/Github and can be installed via the registry from within Markdown Monster via the [MarkdownMonsterAddinRegistry.json file](https://github.com/RickStrahl/MarkdownMonsterAddinsRegistry/blob/master/MarkdownMonsterAddinRegistry.json). You can publish your own add-ins that follow the addin guidelines in this document and publish it in this registry via pull request.
+This repository provides a list of available add-ins that are hosted via Git/GitHub and can be installed via the registry from within Markdown Monster via the [MarkdownMonsterAddinRegistry.json file](https://GitHub.com/RickStrahl/MarkdownMonsterAddinsRegistry/blob/master/MarkdownMonsterAddinRegistry.json). You can publish your own add-ins that follow the addin guidelines in this document and publish it in this registry via pull request.
 
 Right now the registry is pretty sparse as we are still working out the exact structure for addins, but a few add-ins have been added to get the ball rolling.
 
@@ -18,18 +18,18 @@ The `MarkdownMonsterAddinRegistry.json` file in this repository drives the list 
 
 ### Initial Addins available
 
-* **[Save Image to Azure Blob Storage](https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin)**  
+* **[Save Image to Azure Blob Storage](https://GitHub.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin)**  
 This addin allows you to open images from the file system or from the clipboard and post them to an Azure Blob Storage account. The result image URL is then embedded into the currently open editor document.
 
-* **[Paste Code as Gist](https://github.com/RickStrahl/PasteCodeAsGist-MarkdownMonster-Addin)**  
-Allows you to paste a block of code as a Github Gist into your Markdown document. Gists are created on Github via API and the resulting embedding link is embedded into the Markdown document.
+* **[Paste Code as Gist](https://GitHub.com/RickStrahl/PasteCodeAsGist-MarkdownMonster-Addin)**  
+Allows you to paste a block of code as a GitHub Gist into your Markdown document. Gists are created on GitHub via API and the resulting embedding link is embedded into the Markdown document.
 
 ### Creating your own Addin and Adding to the Registry
 Markdown Monster is extensible and you can [create your own Addins](http://markdownmonster.west-wind.com/docs/_4ne0rl1zf.htm) and if you think it might have more general appeal you can publish your Addin in this registry.
 
 To publish your Addin:
 
-* Create your Addin as a Github Repository
+* Create your Addin as a GitHub Repository
 * Create a unique Id for your Addin (camel cased name)
 * Make sure you provide a `\Build` and `\Build\Distribution` folder
 * Make sure required files are provided (addin.zip, icon.png, version.json)
@@ -128,7 +128,7 @@ The Zip file basically should be all the files in the **Distribution** folder.
 
 Markdown Monster's Addin Manager downloads this ZIP file from your repository and installs it in a folder below the `Addins` folder in Markdown Monster. The folder should be self-contained to run on its own except for potential dependencies already provided by Markdown Monster.
 
-The following `build.ps1` (I put it in the `Build` folder) can automate creating the Zip file using 7zip (7z.exe/7z.exe also in [Build folder](https://github.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/tree/master/Build)):
+The following `build.ps1` (I put it in the `Build` folder) can automate creating the Zip file using 7zip (7z.exe/7z.exe also in [Build folder](https://GitHub.com/RickStrahl/SaveToAzureBlob-MarkdownMonster-Addin/tree/master/Build)):
 
 ```powershell
 cd "$PSScriptRoot" 
@@ -164,4 +164,4 @@ Note that we reserve the right to refuse admission of any submission for any rea
 
 
 ### Feedback
-If you have any problems or questions please [open an issue](https://github.com/RickStrahl/MarkdownMonsterAddinsRegistry/issues) on this repo so we can further discuss any addins related issues you might have.
+If you have any problems or questions please [open an issue](https://GitHub.com/RickStrahl/MarkdownMonsterAddinsRegistry/issues) on this repo so we can further discuss any addins related issues you might have.
