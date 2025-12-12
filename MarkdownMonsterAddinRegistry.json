@@ -23,8 +23,8 @@
 		"summary": "Create small C# based scripts that can automate many operations in Markdown Monster. Launch external tools, update documents, mail merge content into the editor and more.",
 		"author": "© Rick Strahl, West Wind Technologies",
 		"gitUrl": "https://github.com/RickStrahl/Commander-MarkdownMonster-Addin/tree/master",
-		"minVersion": "3.0",
-		"maxVersion": "3.99.999"
+		"minVersion": "4.0",
+		"maxVersion": "4.99.999"
 	},
 	{
 		"id": "PandocMarkdownParser",
@@ -32,8 +32,8 @@
 		"summary": "Use the Pandoc Markdown parser in Markdown Monster, and create custom, reusable Pandoc conversion recipes with Pandoc Conversion Launcher.",
 		"author": "© Rick Strahl, West Wind Technologies",
 		"gitUrl": "https://github.com/RickStrahl/Pandoc-MarkdownMonster-Addin/tree/master",
-		"minVersion": "3.0",
-		"maxVersion": "3.99.999"
+		"minVersion": "4.0",
+		"maxVersion": "4.99.999"
 	},
 	{
 		"id": "AutoNumberAddin",
